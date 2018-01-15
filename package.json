@@ -1,0 +1,31 @@
+{
+  "name": "yt-music",
+  "version": "0.0.1",
+  "description": "Listen to YouTube music & download but only audio to save bandwidth. ",
+  "dependencies": {
+    "browserify": "^15.2.0",
+    "make-dir": "^1.1.0",
+    "uglify-js": "^3.3.7",
+    "uglifyify": "^4.0.5",
+    "ytdl-core": "^0.18.7",
+    "ytsr": "^0.1.7"
+  },
+  "scripts": {
+    "make-modules": "browserify ./modules.js > modules-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustedtomato/yt-music.git"
+  },
+  "keywords": [
+    "youtube",
+    "music",
+    "audio",
+    "download"
+  ],
+  "author": "Halasi Tamás",
+  "bugs": {
+    "url": "https://github.com/trustedtomato/yt-music/issues"
+  },
+  "homepage": "https://github.com/trustedtomato/yt-music#readme"
+}
